@@ -33,7 +33,8 @@ const ProjectCaptureIt = () => {
     <div className={styles.Container}>
       <h2 className={styles.Text}>
         <span style={{ color: "#66FCF1" }}>Get a notification each day</span> to
-        capture the moment
+        capture the moment, and <span style={{ color: "#66FCF1" }}>share</span>{" "}
+        it
       </h2>
       <div className={styles.Mobile}>
         <img
