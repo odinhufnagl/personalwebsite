@@ -1,0 +1,45 @@
+.Container {
+  display: flex;
+  margin-top: 170px;
+  flex-direction: row;
+  width: 90%;
+  max-width: 1100px;
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+  flex-wrap: wrap;
+  perspective: 1000px;
+}
+
+.Text {
+  font-size: 40px;
+  color: rgb(255, 255, 255, 0.8);
+  width: auto;
+  text-align: left;
+  width: 400px;
+}
+
+.Mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+  width: 36%;
+
+  height: 500px;
+}
+
+.Imagemobile {
+  width: 280px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 910px) {
+  .Text {
+    text-align: center;
+  }
+  .Container {
+    justify-content: center;
+  }
+}

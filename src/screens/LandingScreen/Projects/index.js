@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 import styles from "./index.module.css";
-import ProjectChat from './ProjectChat';
-import { ProjectChessClock } from './ProjectChessClock';
-import Projectpitchit from './ProjectPitchit';
+import ProjectCaptureIt from "./ProjectCaptureIt";
+import ProjectChat from "./ProjectChat";
+import { ProjectChessClock } from "./ProjectChessClock";
+import Projectpitchit from "./ProjectPitchit";
 
 const Projects = () => {
-  
-   /* useEffect(() => {
+  /* useEffect(() => {
         window.onscroll = function () {
           console.log("scorlling")
           const projectchat = document.getElementById("projectchat");
@@ -21,21 +21,15 @@ const Projects = () => {
         }
         
       }, [])*/
-    return (
-        <div className={styles.Container} id="projects">
-            <h2 className={styles.Header}>My projects</h2>
-            
-
-            <ProjectChat></ProjectChat>
-            <Projectpitchit></Projectpitchit>
-            <ProjectChessClock></ProjectChessClock>
-           
-            
-         
-
-            
-        </div>
-    )
-}
+  return (
+    <div className={styles.Container} id="projects">
+      <h2 className={styles.Header}>My projects</h2>
+      <ProjectCaptureIt></ProjectCaptureIt>
+      <Projectpitchit></Projectpitchit>
+      <ProjectChat></ProjectChat>
+      <ProjectChessClock></ProjectChessClock>
+    </div>
+  );
+};
 
 export default Projects;

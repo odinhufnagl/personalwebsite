@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import styles from "./index.module.css";
-import image from "../../../../IMG_20210318_142755_google-pixel5-justblack-portrait.png";
-const Projectpitchit = () => {
+import image from "../../../../Screenshot_20220416-130458_captureit (1)_google-pixel5-justblack-portrait.png";
+
+const ProjectCaptureIt = () => {
   const handleMouse = (e) => {
     let xAxis = (window.innerWidth / 2 - e.pageX) / 20;
     let yAxis = (window.innerHeight / 2 - e.pageY) / 1000;
@@ -31,8 +32,8 @@ const Projectpitchit = () => {
   return (
     <div className={styles.Container}>
       <h2 className={styles.Text}>
-        <span style={{ color: "#66FCF1" }}>Social Network</span> for motivation
-        and personal development
+        <span style={{ color: "#66FCF1" }}>Get a notification each day</span> to
+        capture the moment
       </h2>
       <div className={styles.Mobile}>
         <img
@@ -46,4 +47,4 @@ const Projectpitchit = () => {
   );
 };
 
-export default Projectpitchit;
+export default ProjectCaptureIt;
