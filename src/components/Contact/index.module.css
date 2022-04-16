@@ -1,0 +1,13 @@
+.Container {
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+@media only screen and (max-width: 420px) {
+  .Container {
+    width: 80%;
+  }
+}

@@ -1,0 +1,34 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1500px;
+  perspective: 2000px;
+}
+
+.Image {
+  width: 780px;
+  height: 500px;
+
+  transform: rotateY(30deg);
+}
+
+@media only screen and (max-width: 1660px) {
+  .Container {
+    justify-content: center;
+  }
+  .Image {
+    display: none;
+  }
+  .List {
+    columns: 1;
+
+    list-style-type: none;
+  }
+  .List li {
+    text-align: center;
+  }
+}

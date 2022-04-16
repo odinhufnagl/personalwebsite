@@ -1,0 +1,42 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1500px;
+  perspective: 2000px;
+}
+
+.Content {
+  font-size: 32px;
+  max-width: 700px;
+
+  text-align: left;
+}
+
+.Image {
+  width: 780px;
+  height: 500px;
+  transform: rotateY(-30deg);
+}
+
+@media only screen and (max-width: 1660px) {
+  .Container {
+    justify-content: center;
+  }
+  .Image {
+    display: none;
+  }
+  .Content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Content {
+    font-size: 22px;
+    text-align: center;
+  }
+}
