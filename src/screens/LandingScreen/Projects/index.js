@@ -6,7 +6,8 @@ import { ProjectChessClock } from "./ProjectChessClock";
 import Projectpitchit from "./ProjectPitchit";
 
 const Projects = () => {
-  /* useEffect(() => {
+  /*
+  useEffect(() => {
         window.onscroll = function () {
           console.log("scorlling")
           const projectchat = document.getElementById("projectchat");
