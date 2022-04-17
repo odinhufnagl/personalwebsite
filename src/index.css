@@ -41,7 +41,11 @@ p {
   font-weight: 500;
 }
 h2,
-h1 {
+h3,
+h1,
+h5,
+h4,
+h6 {
   font-family: "Poppins", sans-serif;
   color: #45a29e;
   margin: 0;
@@ -50,7 +54,7 @@ h1 {
 .aurora-outer {
   background: linear-gradient(
     45deg,
-    #0b0c10 50%,
+    #0b0c10 57%,
     rgba(69, 162, 158, 0.3) 10%,
     rgba(69, 162, 158, 0.5) 1%
   );
