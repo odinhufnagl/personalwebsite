@@ -39,17 +39,7 @@ const ProjectAlgoVisualizer = () => {
         <a className={styles.Button} href="https://algo-visualize.vercel.app/">
           <h4>Visit algoVisualize</h4>
         </a>
-        <h5
-          style={{
-            color: "rgb(255, 255, 255, 0.8)",
-            fontWeight: 500,
-            marginTop: 6,
-            marginBottom: 6,
-            fontSize: 15,
-          }}
-        >
-          or
-        </h5>
+        <div style={{ height: 20 }}></div>
 
         <a
           className={styles.Button}
