@@ -14,7 +14,7 @@ const Hero = () => {
         <div className={styles.Containerintopleft}>
           <h2 className="Bigheader">A fullstack developer</h2>
           <h1 className="Subheader">
-            Specialised in React, React Native and Python
+            Specialized in React, React Native and Python
           </h1>
         </div>
         <FontAwesomeIcon
